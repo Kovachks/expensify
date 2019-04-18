@@ -11,4 +11,4 @@ test('should render expense list with expenses', () => {
 test('shoulud render ExpenseList with empty message', () => {
     const wrapper = shallow(<ExpenseList expenses={[]} />)
     expect(wrapper).toMatchSnapshot();
-})
+});
